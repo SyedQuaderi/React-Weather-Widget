@@ -5,8 +5,8 @@ class Form extends React.Component {
         return(
         <div className="reactWeatherWidget">
             <form onSubmit={this.props.getWeather}>
-                <p className="reactTitle">Title</p>
-                <input className="reactInput" type="text" name="city" placeholder="Title of widget"/>
+                <p className="reactTitle">Enter City</p>
+                <input className="reactInput" type="text" name="city" placeholder="Name of the city"/>
                 <p className="reactTitle">Temperature</p>
                 <div className="radio">
                     <label className="label1">
